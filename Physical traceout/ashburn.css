@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.city-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-size: 75%; /* Adjusted the size a bit to make the image slightly smaller */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.city-info {
+    width: 60%;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9); /* Made the background slightly less transparent */
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+    border-radius: 25px; /* Slightly increased for softer rounded corners */
+    position: relative;
+}
+
+.city-info h2 {
+    color: purple;
+    margin-top: 0;
+}
+
+.city-info p {
+    color: purple;
+}
+
+.back-button {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background: white;
+    color: purple;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid purple; /* Made the border slightly thicker */
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.3); /* Slightly increased shadow for a better effect */
+}
+
+.back-button:hover {
+    background-color: purple;
+    color: white;
+}

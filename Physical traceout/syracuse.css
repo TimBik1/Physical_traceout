@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.city-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-size: cover; /* Change to "cover" to ensure the image covers the full viewport */
+    background-position: center;
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+}
+
+.city-info {
+    width: 60%;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+    border-radius: 20px;  
+    position: relative;
+}
+
+.city-info h2 {
+    color: purple;
+    margin-top: 0;
+}
+
+.city-info p {
+    color: purple;
+}
+
+.back-button {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background: white;
+    color: purple;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid purple;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+.back-button:hover {
+    background-color: purple;
+    color: white;
+}

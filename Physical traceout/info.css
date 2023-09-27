@@ -1,0 +1,47 @@
+body {
+    background-color: grey;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.6;
+    overflow: auto; /* Allow scrolling if content overflows */
+}
+
+.info-content {
+    background-color: white;
+    color: black;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+h2, h3 {
+    text-align: center;
+    color: purple;
+}
+
+p {
+    text-align: left;  /* Left align for better readability of longer text */
+    margin-bottom: 20px;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+.back-button:hover {
+    background-color: #6a0080; /* I adjusted the color since "darkpurple" is not a recognized CSS color value */
+    color: white;
+}

@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.city-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-size: 85%;  /* Reduced size to 85% to make New York image smaller */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.city-info {
+    width: 60%;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    position: relative;
+}
+
+.city-info h2 {
+    color: purple;
+    margin-top: 0;
+}
+
+.city-info p {
+    color: purple;
+}
+
+.back-button {
+    position: fixed;  /* Changed from absolute to fixed for consistent positioning */
+    bottom: 20px;
+    left: 20px;
+    background: white;
+    border: 3px solid purple;
+    color: purple;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+    z-index: 100;  /* To ensure the button stays on top */
+}
+
+.back-button:hover {
+    background-color: purple;
+    color: white;
+}
+
+
+

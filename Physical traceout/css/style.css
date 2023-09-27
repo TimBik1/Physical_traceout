@@ -1,0 +1,69 @@
+body {
+    background-color: purple;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.map-container {
+    position: relative;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#world-map {
+    width: 100%;
+    height: auto;
+}
+
+.city-point {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.city-point:hover {
+    transform: scale(1.5);
+}
+
+/* Example positions for city points, you'll need to adjust these */
+#london { top: 30%; left: 50%; }
+#newyork { top: 42%; left: 27%; }
+#philadelphia { top: 39%; left: 28%; }
+#lakewood { top: 43%; left: 25%; }
+#syracuse { top: 39%; left: 26%; }
+#ashburn { top: 46%; left: 25%; }
+
+.info-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.info-button:hover {
+    background-color: lightgray;
+}
+
+
+
